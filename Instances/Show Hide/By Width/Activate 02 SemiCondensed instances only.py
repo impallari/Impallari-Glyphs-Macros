@@ -15,7 +15,6 @@ for instance in thisFont.instances:
 	if instance.active:
 		instance.active = False
 		
-	print instance.width
 	if instance.width == "SemiCondensed":
 		instance.active = True
 		
